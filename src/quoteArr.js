@@ -1,7 +1,8 @@
 const quotes=[
 	{
     "quote": "“I saw this movie about a bus that had to speed around a city, keeping its speed over fifty, and if its speed dropped, it would explode! I think it was called, 'The Bus That Couldn’t Slow Down'.",
-    "author": "Homer Simpson"
+    "author": "Homer Simpson",
+	
     }, {
     "quote": "You tried your best and you failed miserably. The lesson is: never try.",
     "author": "Homer Simpson"
@@ -12,13 +13,13 @@ const quotes=[
     "quote": "I used to be with it, but then they changed what ‘it’ was, and now what I’m with isn’t it. And what’s ‘it’ seems weird and scary to me.",
     "author": "Grampa Simpson"
     }, {
-    "quote": "And I, For One, Welcome Our New Insect Overlords.",
+    "quote": "And I, for one, welcome our new insect overlords.",
     "author": "Kent Brockman"
     }, {
     "quote": "Loneliness and cheeseburgers are a dangerous mix.",
     "author": "Comic Book Guy"
 	}, {
-	"quote": "Family, religion, friendship. These are the three demons you must slay if you wish to succeed in busniess.",
+	"quote": "Family, religion, friendship. These are the three demons you must slay if you wish to succeed in business.",
 	"author": "Mr. Burns"
 	}, {
 	"quote": "Ironic, isn't it Smithers? This anonymous clan of slack-jawed troglodytes has cost me the election, and yet if I were to have them killed, I would be the one to go to jail. That's democracy for you!",
@@ -72,6 +73,7 @@ const quotes=[
 	"quote": "I think the saddest day of my life was when I realized I could beat my dad at most things, and Bart experienced that at the age of four.",
 	"author": "Homer Simpson"
 	}, {
+
 	"quote": "I was working on a flat tax proposal and I accidentally proved there's no God.",
 	"author": "Homer Simpson"
 	}, {
@@ -144,7 +146,7 @@ const quotes=[
 	"quote": "His jiggling is almost hypnotic! Yes, it's like a lava lamp.",
 	"author": "Dr. Hibbert"
 	}, {
-	"quote": "I hate every ape I see from From chimpan-a to chimpan-z.",
+	"quote": "I hate every ape I see from from chimpan-a to chimpan-z.",
 	"author": "Troy McClure"
 	}, {
 	"quote": "Hi, I'm Troy Mcclure. You Might Remember Me From Such Public Service Videos As Designated Drivers: The Lifesaving Nerds And Phony Tornado Alarms Reduce Readiness. I'm Here Today To Give You The Skinny On Shoplifting, Thereby Completing My Plea Bargain With The Good People At Foot Locker Of Beverly Hills.",
@@ -281,6 +283,10 @@ const quotes=[
 	}, {
 	"quote": "Daddy says dice are wicked!",
 	"author": "Todd Flanders"
+	}, {
+	"quote":"since...I'd...achieved...all...of...my...goals...as...President...in...one...term, there...was...no...need...for...a...second.",
+	
+	"author": "George H.W. Bush"
 	}
 ]
 export default quotes

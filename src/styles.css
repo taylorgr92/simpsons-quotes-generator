@@ -36,7 +36,7 @@ p {
   font-family: "Merienda One", cursive;
 }
 
-.trivia-card {
+.quote-card {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -66,13 +66,6 @@ p {
   margin-right: .1em;
   margin-left:.1em;
   align-content:center;
-  
-}
-.card-button {
-
-margin-left: 6em;
-margin-bottom:.009em;
-align-content:left;
 }
 
 .card-button {
@@ -80,5 +73,6 @@ align-content:left;
   margin-right: 6em;
   margin-bottom:.01em;
   padding-bottom:0em;
-  align-content:right;
+  align-content:center;
+ 
   }
