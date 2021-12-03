@@ -80,7 +80,7 @@ const quotes=[
 	"quote": "Son, being popular is the most important thing in the whole world!",
 	"author": "Homer Simpson"
 	}, {
-	"quote": "I'm a white male, age 18 to 49. Everyone listens to me, no matter how dumb my suggestions are.",
+	"quote": "I'm a white male, age 18 to 49. Everyone listens to me, no matter how dumb my suggestions are",
 	"author": "Homer Simpson"
 	}, {
 	"quote": "Step aside, everyone! Sensitive love letters are my specialty. 'Dear Baby, Welcome to Dumpsville. Population: you.'",
@@ -287,6 +287,9 @@ const quotes=[
 	"quote":"since...I'd...achieved...all...of...my...goals...as...President...in...one...term, there...was...no...need...for...a...second.",
 	
 	"author": "George H.W. Bush"
-	}
+	}, {
+		"author": "Homer Simpson",
+		"quote":"Kill my boss?! Do I dare live out the American dream?"
+		}
 ]
 export default quotes

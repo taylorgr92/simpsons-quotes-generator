@@ -12,9 +12,10 @@ class QuoteCard extends React.Component {
                 <Card.Text>{this.props.quote}</Card.Text>
                 <Card.Text>{this.props.author}</Card.Text>
                 <Button className="card-button"
-                  onClick={this.props.handleClick}>
+                  onClick={this.props.handleClick}>Next Quote
                 </Button>
               </Card.Body>
+             
             </Card>
           </Col>
         </Row>

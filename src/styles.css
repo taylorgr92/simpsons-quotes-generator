@@ -2,6 +2,8 @@
   letter-spacing: 0.07em;
   font-family: "Open Sans", sans-serif;
 }
+
+
 body {
   background: rgb(199, 170, 218);
   background: linear-gradient(
@@ -11,68 +13,94 @@ body {
   );
 }
 
-h1 {
-  font-size: 30px;
-  color: rgba(0, 0, 0, 0.726);
-}
 
-h5 {
-  font-size: 25px;
-  color: rgba(0, 0, 0, 0.726);
-}
-
-p {
-  font-size: 18px;
-  color: rgba(0, 0, 0, 0.726);
-}
-
-.heading {
-  text-align: center;
-  margin-top: 1.5em;
-  margin-bottom: 2em;
-  font-size: 45px;
-  text-shadow: 2px 0px 4px rgba(0, 0, 0, 0.308);
-  color: rgba(0, 0, 0, 0.726);
-  font-family: "Merienda One", cursive;
-}
 
 .quote-card {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 18rem;
-  width: 30rem;
-  margin-top: 19em;
+  height: 22rem;
+  width: 40rem;
+  margin-top:11em;
   border-radius: 1px;
   box-shadow: 0px 0px 0px 8px rgba(124, 124, 124, 0.3);    
   border: 5px solid rgba(161, 197, 221, 0.863);
   margin-left: auto;
   margin-right: auto;
-  padding:0;
+ 
 
 }
 
-.card-title  {
-  text-align: center;
-  margin-bottom:1em;
-  padding:0em;
-
-
-}
 
 .card-text {
   text-align:center;
+  font-size: 22px;
   justify-content:center;  
-  margin-right: .1em;
-  margin-left:.1em;
+  margin-right: .5em;
+  margin-left:.5em;
   align-content:center;
+  font-family: 'Open Sans', sans-serif;
 }
 
-.card-button {
 
-  margin-right: 6em;
-  margin-bottom:.01em;
-  padding-bottom:0em;
-  align-content:center;
- 
+
+  .page-title {
+    font-family: 'Fuzzy Bubbles', bold;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom:0;
+    margin-top:2.25em;
+    font-size: 52px;
+    text-shadow: 2px 0px 4px rgba(0, 0, 0, 0.452);
+    color: rgba(0, 0, 0, 0.726);
+
+
   }
+
+  .card-button {
+    box-shadow: 0px 0px 0px 2px #afbee6;
+    background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+    background-color:#7892c2;
+    border-radius:10px;
+    border:1px solid #4e6096;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:19px;
+    padding:11px 40px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #283966;
+  }
+  .card-button:hover {
+    background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+    background-color:#476e9e;
+  }
+  .card-button:active {
+    position:relative;
+    top:1px;
+  }
+  .card-button {
+    box-shadow: 0px 0px 0px 2px #afbee6;
+    background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+    background-color:#7892c2;
+    border-radius:10px;
+    border:1px solid #4e6096;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:19px;
+    padding:11px 40px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #283966;
+  }
+  .card-button:hover {
+    background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+    background-color:#476e9e;
+  }
+  .card-button:active {
+    position:relative;
+    top:1px;
+  }
+    
