@@ -12,10 +12,11 @@ class QuoteBox extends React.Component {
     <div classname = "author-section">
      <p className="author-text">{this.props.author}</p>
      </div>
-     <div className="button-section"></div>
+    
      <button className="quote-button"
                   onClick={this.props.handleClick}>Next Quote
                 </button>
+          
       </div>
     </div>
     )
