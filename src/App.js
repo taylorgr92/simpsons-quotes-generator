@@ -1,5 +1,5 @@
 
-import QuoteCard from "./card-component";
+import QuoteBox from "./quote-box";
 import React from "react";
 import "./styles.css"
 
@@ -30,14 +30,14 @@ class App extends React.Component {
     });
     this.shuffleQuotes(quotes);
 
-    // this.shuffleQuotes(author);
+
   };
 
   render() {
     return (
       <div>
         <h1 className= "page-title" >Simpsons Quote Generator!</h1>
-      <QuoteCard
+      <QuoteBox
       handleClick={this.handleClick}
       {...this.state}
     />

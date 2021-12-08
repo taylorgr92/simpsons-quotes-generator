@@ -173,9 +173,6 @@ const quotes=[
 	"quote": "Moon pie... what a time to be alive.",
 	"author": "Jasper Beardsley"
 	}, {
-	"quote": "Love is the flower you've got to let grow.",
-	"author": "John Lennon"
-	}, {
 	"quote": "Hello! I'm Troy McClure. You may remember me from such self-help videos as Smoke Yourself Thin and Get Confident, Stupid.",
 	"author": "Troy McClure"
 	}, {
@@ -278,7 +275,7 @@ const quotes=[
 	"quote": "Tell him it's the 'worst prognosis ever!' Hee hee hee.",
 	"author": "Dr. Hibbert"
 	}, {
-	"quote": "Have the Rolling Stones killed.",
+	"quote": "Have the Rolling Stones killed!",
 	"author": "Mr. Burns"
 	}, {
 	"quote": "Daddy says dice are wicked!",
