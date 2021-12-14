@@ -4,7 +4,7 @@ import React from "react";
 import "./styles.css"
 
 import quotes from "./quoteArr";
-import './styles.css'
+
 
 class App extends React.Component {
   constructor() {
@@ -12,6 +12,7 @@ class App extends React.Component {
     this.state = {
       quote: quotes[0].quote,
       author: quotes[0].author,
+      img: quotes[0].img
     };
   }
 
@@ -27,6 +28,7 @@ class App extends React.Component {
     this.setState({
       quote: generateQuote.quote,
       author: generateQuote.author,
+      img:generateQuote.img,
     });
     this.shuffleQuotes(quotes);
 

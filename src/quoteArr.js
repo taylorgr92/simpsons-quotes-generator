@@ -2,10 +2,12 @@ const quotes=[
 	{
     "quote": "“I saw this movie about a bus that had to speed around a city, keeping its speed over fifty, and if its speed dropped, it would explode! I think it was called, 'The Bus That Couldn’t Slow Down'.",
     "author": "Homer Simpson",
+	"img": "src/homer-prance.png"
 	
     }, {
     "quote": "You tried your best and you failed miserably. The lesson is: never try.",
-    "author": "Homer Simpson"
+    "author": "Homer Simpson",
+	"img": "src/homer-prance.png"
     }, {
     "quote": "“I am so smart! I am so smart! S-M-R-T … I mean S-M-A-R-T!.”",
     "author": "Homer Simpson"

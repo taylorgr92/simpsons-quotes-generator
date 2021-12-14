@@ -1,69 +1,75 @@
 * {
   letter-spacing: 0.07em;
   font-family: "Open Sans", sans-serif;
-}
-
-#root,
-html,
-body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
-
+html{
+  background-color:#75C3E3
+  
+}
 body {
-  background: rgb(199, 170, 218);
-  background: linear-gradient(
-    90deg,
-    rgba(199, 170, 218, 1) 0%,
-    rgba(249, 212, 193, 1) 90%
-  );
-}
-.page-title {
   display: flex;
   align-items: center;
+  justify-content: center;
+
+}
+
+.page-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self:center;
   font-family: "Fuzzy Bubbles", bold;
   font-weight: bold;
   text-align: center;
   margin-top: 2.25em;
-  font-size: 52px;
-  text-shadow: 2px 0px 4px rgba(0, 0, 0, 0.452);
-  color: rgba(0, 0, 0, 0.726);
+  font-size: 3.5em;
+  text-shadow: 2px 0px 4px rgba(0, 0, 0, 0.822);
+  color: rgba(255, 255, 255, 0.904);
 }
 .quote-container {
-  
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
+
+  text-align: center;
   height: 22rem;
   width: 40rem;
   margin-top: 9em;
   border-radius: 1px;
-  box-shadow: 0px 0px 0px 8px rgba(124, 124, 124, 0.3);
-  border: 5px solid rgba(161, 197, 221, 0.863);
+  box-shadow: 0px 0px 0px 8px rgba(124, 124, 124, 0.294);
+  outline: 8px dashed #bd7385e1;
+  outline-offset: 0px;
+  padding: 30px;
 }
 
 .quote-text {
   text-align: center;
+  color: white;
+  border:rgba(255, 255, 255, 0.89);
   font-size: 20px;
+  text-shadow: 2px 0px 4px rgba(0, 0, 0, 0.65);
   justify-content: center;
   margin-right: 0.5em;
   margin-left: 0.5em;
-  margin-top: .5em;
+  margin-top: 1em;
   align-self: center;
   font-family: "Open Sans", sans-serif;
   display: block;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.05em;
 }
 
 .author-text {
   display: flex;
   text-align: center;
+  color:white;
+    text-shadow: 2px 0px 4px rgba(0, 0, 0, 0.63);
   margin-bottom: 2em;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .quote-button:hover {
@@ -79,11 +85,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0px 0px 0px 2px #afbee6;
-  background: linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
-  background-color: #7892c2;
+  box-shadow: 5px 5px 15px -9px #000000;
+  background-color:#6161DF;
   border-radius: 10px;
-  border: 1px solid #4e6096;
+  border: 1px solid #384058;
   cursor: pointer;
   color: #ffffff;
   font-family: Arial;
@@ -92,8 +97,6 @@ body {
   text-decoration: none;
   text-shadow: 0px 1px 0px #283966;
   width: 30%;
- margin-top: 0em;
+  margin-top: 0em;
   margin-bottom: 2em;
-
-  
 }
