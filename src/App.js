@@ -1,10 +1,8 @@
-
 import QuoteBox from "./quote-box";
 import React from "react";
-import "./styles.css"
+import "./styles.css";
 
 import quotes from "./quoteArr";
-
 
 class App extends React.Component {
   constructor() {
@@ -12,7 +10,7 @@ class App extends React.Component {
     this.state = {
       quote: quotes[0].quote,
       author: quotes[0].author,
-      img: quotes[0].img
+      image: quotes[0].image,
     };
   }
 
@@ -23,31 +21,27 @@ class App extends React.Component {
   shuffleQuotes(arr) {
     return arr.sort(() => Math.random() - 0.5);
   }
-  handleClick = () => { 
+  handleClick = () => {
     const generateQuote = this.randomQuote();
     this.setState({
       quote: generateQuote.quote,
       author: generateQuote.author,
-      img:generateQuote.img,
+      image: generateQuote.image,
     });
     this.shuffleQuotes(quotes);
-
-
   };
 
   render() {
     return (
       <div>
-        <h1 className= "page-title" >Simpsons Quote Generator!</h1>
-      <QuoteBox
-      handleClick={this.handleClick}
-      {...this.state}
-    />
+        <h1 className="page-title">Simpsons Quote Generator!</h1>
+   
+        <QuoteBox handleClick={this.handleClick} {...this.state} />
 
-    </div>
-    )
+      </div>
+      
+    );
   }
-} 
-
+}
 
 export default App;

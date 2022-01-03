@@ -1,5 +1,6 @@
 import React from "react";
 
+
 class QuoteBox extends React.Component {
   render() {
     return (
@@ -7,9 +8,11 @@ class QuoteBox extends React.Component {
         <div className="quote-container">
           <p className="quote-text">{this.props.quote}</p>
 
-          <div>
-            <img src={this.props.image} />
-          </div>
+         
+          <img src={this.props.image} alt="simpsons-character" />
+
+        
+       
           <div classname="author-section">
             <p className="author-text">{this.props.author}</p>
           </div>
@@ -18,6 +21,7 @@ class QuoteBox extends React.Component {
             Next Quote
           </button>
         </div>
+
       </div>
     );
   }

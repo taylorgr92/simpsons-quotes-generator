@@ -4,24 +4,21 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
-html{
-  background-color:#75C3E3
-  
+html {
+  background-color: #75c3e3;
 }
 body {
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 .page-title {
-  display: flex;
+  display: inline-block;
   flex-direction: column;
   justify-content: center;
-  align-self:center;
+  align-self: center;
   font-family: "Fuzzy Bubbles", bold;
   font-weight: bold;
   text-align: center;
@@ -35,9 +32,10 @@ body {
   align-items: center;
   flex-direction: column;
   justify-content: center;
-
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
-  height: 22rem;
+  height: 35rem;
   width: 40rem;
   margin-top: 9em;
   border-radius: 1px;
@@ -50,7 +48,7 @@ body {
 .quote-text {
   text-align: center;
   color: white;
-  border:rgba(255, 255, 255, 0.89);
+  border: rgba(255, 255, 255, 0.89);
   font-size: 20px;
   text-shadow: 2px 0px 4px rgba(0, 0, 0, 0.65);
   justify-content: center;
@@ -66,8 +64,8 @@ body {
 .author-text {
   display: flex;
   text-align: center;
-  color:white;
-    text-shadow: 2px 0px 4px rgba(0, 0, 0, 0.63);
+  color: white;
+  text-shadow: 2px 0px 4px rgba(0, 0, 0, 0.63);
   margin-bottom: 2em;
   font-size: 20px;
 }
@@ -81,12 +79,12 @@ body {
   top: 1px;
 }
 .quote-button {
-  position: relative;
+  position: static;
   display: flex;
   justify-content: center;
   align-items: center;
   box-shadow: 5px 5px 15px -9px #000000;
-  background-color:#6161DF;
+  background-color: #6161df;
   border-radius: 10px;
   border: 1px solid #384058;
   cursor: pointer;
@@ -99,4 +97,19 @@ body {
   width: 30%;
   margin-top: 0em;
   margin-bottom: 2em;
+}
+
+.footer{
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: rgb(235, 195, 64);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+image{
+  max-width: 100%;
+  max-height: 100%;
 }
