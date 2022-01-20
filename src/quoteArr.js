@@ -164,17 +164,17 @@ const quotes = [
     quote:
       "Mom, Dad, just so you don’t hear any wild rumors, I’m being indicted for fraud in Australia.",
     author: "Bart Simpson",
-    image: "img/bart-simpson.	g",
+    image: "img/bart-simpson.png",
   },
   {
     quote: "There’s a 4:30 in the morning now?",
     author: "Bart Simpson",
-    image: "img/bart-simpson.jpg",
+    image: "img/bart-simpson.png",
   },
   {
     quote: "I'm Bart Simpson, who the hell are you?",
     author: "Bart Simpson",
-    image: "img/bart-simpson.jpg",
+    image: "img/bart-simpson.png",
   },
   {
     quote: "Now what can I ding dong diddly do for you?",
@@ -283,12 +283,12 @@ const quotes = [
   {
     quote: "Eat my Shorts!",
     author: "Bart Simpson",
-    image: "img/bart-simpson.jpg",
+    image: "img/bart-simpson.png",
   },
   {
     quote: "Don't have a cow, man!",
     author: "Bart Simpson",
-    image: "img/bart-simpson.jpg",
+    image: "img/bart-simpson.png",
   },
   {
     quote: "D'oh!",
