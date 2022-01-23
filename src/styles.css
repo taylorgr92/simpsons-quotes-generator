@@ -22,7 +22,7 @@ html {
   text-shadow: 2px 0px 4px rgba(0, 0, 0, 0.822);
   color: rgba(255, 255, 255, 0.904);
 }
-.quote-container {
+.quote-box {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -38,6 +38,7 @@ html {
   outline: 8px dashed #bd7385e1;
   outline-offset: 0px;
   padding: 30px;
+  max-height:100%
   
 }
 

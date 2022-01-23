@@ -5,7 +5,7 @@ class QuoteBox extends React.Component {
     return (
      
         <div className="quote-box">
-          <div className="quote-container">
+         
             
             <p className="quote-text">{this.props.quote}</p>
 
@@ -20,8 +20,9 @@ class QuoteBox extends React.Component {
               </button>
               </div>
            
-          </div>
-      
+          
+        
+    
      
     );
   }
