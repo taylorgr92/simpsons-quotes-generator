@@ -35,11 +35,14 @@ class App extends React.Component {
     return (
       <div>
         <h1 className="page-title">Simpsons Quote Generator!</h1>
-   
+
         <QuoteBox handleClick={this.handleClick} {...this.state} />
 
+        <div className="footer">
+        <p className= "footer-text">Taylor Franklin | 
+       &copy; 2022</p>
+        </div>
       </div>
-      
     );
   }
 }
