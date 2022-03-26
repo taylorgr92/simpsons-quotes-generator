@@ -3,7 +3,8 @@
   font-family: "Open Sans", sans-serif;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing:border-box;
+ 
 }
 html {
   background-color: #75c3e3;
@@ -15,15 +16,16 @@ body {
 }
 
 .page-title {
-  display: inline-block;
+  display: flex;
+  margin-bottom: 5rem;
   flex-direction: column;
   justify-content: center;
   align-self: center;
   font-family: "Fuzzy Bubbles", bold;
   font-weight: bold;
   text-align: center;
-  margin-top: 2.25em;
-  font-size: 3.5em;
+  margin-top: 8rem;
+  font-size: 5em;
   text-shadow: 2px 0px 4px rgba(0, 0, 0, 0.822);
   color: rgba(255, 255, 255, 0.904);
 }
@@ -32,32 +34,37 @@ body {
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 25%;
+  margin-right: 25%;
   text-align: center;
-  max-height: 30rem;
-  max-width: 40rem;
-  margin-top: 9em;
+  max-height: auto;
+  max-width: 50%;
+ 
+
+  
   border-radius: 1px;
   box-shadow: 0px 0px 0px 8px rgba(124, 124, 124, 0.294);
   outline: 8px dashed #bd7385e1;
   outline-offset: 0px;
   padding: 30px;
+  margin-bottom:5rem;
+  
 }
 
 .quote-text {
   text-align: center;
   color: white;
   border: rgba(255, 255, 255, 0.89);
-  font-size: 20px;
+  font-size: 2em;
   text-shadow: 2px 0px 4px rgba(0, 0, 0, 0.65);
   justify-content: center;
-  margin-right: 0.5em;
-  margin-left: 0.5em;
-  margin-top: 1em;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom:2rem;
   align-self: center;
   font-family: "Open Sans", sans-serif;
-  display: block;
+  display: relative;
   letter-spacing: 0.05em;
 }
 
@@ -66,8 +73,8 @@ body {
   text-align: center;
   color: white;
   text-shadow: 2px 0px 4px rgba(0, 0, 0, 0.63);
-  margin-bottom: 2em;
-  font-size: 20px;
+  margin-bottom: 1em;
+  font-size: 1.5em;
 }
 
 .quote-button:hover {
@@ -112,4 +119,6 @@ body {
 image{
   max-width: 100%;
   max-height: 100%;
+  margin-bottom: 1rem;
+  align-self: center;
 }
