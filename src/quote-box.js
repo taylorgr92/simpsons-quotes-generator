@@ -13,7 +13,7 @@ class QuoteBox extends React.Component {
 
         
        
-          <div classname="author-section">
+          <div className="author-section">
             <p className="author-text">{this.props.author}</p>
           </div>
 

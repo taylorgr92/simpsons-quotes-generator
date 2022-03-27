@@ -4,41 +4,45 @@
   margin: 0;
   padding: 0;
   box-sizing:border-box;
+
+    background-color: #75c3e3;
+
  
 }
 html {
   background-color: #75c3e3;
 }
+
 body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background-color: #75c3e3;
 }
 
 .page-title {
   display: flex;
-  margin-bottom: 5rem;
-  flex-direction: column;
+  margin-bottom: 3rem;
+ 
   justify-content: center;
   align-self: center;
   font-family: "Fuzzy Bubbles", bold;
   font-weight: bold;
   text-align: center;
-  margin-top: 8rem;
-  font-size: 4em;
+  margin-top: 4rem;
+  font-size: 3em;
   text-shadow: 2px 0px 4px rgba(0, 0, 0, 0.822);
   color: rgba(255, 255, 255, 0.904);
+  margin-right: 5%;
+  margin-left: 5%
 }
 .quote-container {
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 20%;
+  margin-right: 20%;
   text-align: center;
-  max-height: auto;
-  max-width: 50%;
+  max-height: 25%;
+  max-width: auto;
  
 
   
@@ -52,10 +56,11 @@ body {
 }
 
 .quote-text {
+  display:flex;
   text-align: center;
   color: white;
   border: rgba(255, 255, 255, 0.89);
-  font-size: 1.5em;
+  font-size: 1.25em;
   text-shadow: 2px 0px 4px rgba(0, 0, 0, 0.65);
   justify-content: center;
   margin-right: 0.5rem;
@@ -64,8 +69,9 @@ body {
   margin-bottom:2rem;
   align-self: center;
   font-family: "Open Sans", sans-serif;
-  display: relative;
+ 
   letter-spacing: 0.05em;
+  max-width:100%
 }
 
 .author-text {
@@ -74,7 +80,7 @@ body {
   color: white;
   text-shadow: 2px 0px 4px rgba(0, 0, 0, 0.63);
   margin-bottom: 1em;
-  font-size: 1.5em;
+  font-size: 1.1em;
 }
 
 .quote-button:hover {
@@ -97,13 +103,14 @@ body {
   cursor: pointer;
   color: #ffffff;
   font-family: Arial;
-  font-size: 1.25em;
+  font-size: 1em;
   padding: 11px 40px;
   text-decoration: none;
   text-shadow: 0px 1px 0px #283966;
-  width: 30%;
+
   margin-top: 0em;
   margin-bottom: 2em;
+  position: relative;
 }
 
 .footer{
@@ -121,4 +128,5 @@ image{
   max-height: 100%;
   margin-bottom: 1rem;
   align-self: center;
+  justify-content: center;
 }
