@@ -1,7 +1,8 @@
 import QuoteBox from "./quote-box";
 import React from "react";
 import "./styles.css";
-import myFooter from ".myFooter"
+import MyFooter from './MyFooter'
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import quotes from "./quoteArr";
@@ -41,13 +42,14 @@ class App extends React.Component {
 
   render() {
     return (
-      <React.Fragment>
-        
+      <>
+       
         <h1 className="page-title">Simpsons Quote Generator!</h1>
    
         <QuoteBox handleClick={this.handleClick} {...this.state} />
-        <myFooter/>
-      </React.Fragment>
+        
+      <MyFooter />
+      </>
       
     );
   }
