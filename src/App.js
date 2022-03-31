@@ -2,6 +2,7 @@ import QuoteBox from "./quote-box";
 import React from "react";
 import "./styles.css";
 import MyFooter from './MyFooter'
+import ToggleMenu from "./ToggleMenu"
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -43,7 +44,7 @@ class App extends React.Component {
   render() {
     return (
       <>
-       
+       <ToggleMenu/>
         <h1 className="page-title">Simpsons Quote Generator!</h1>
    
         <QuoteBox handleClick={this.handleClick} {...this.state} />
