@@ -8,7 +8,7 @@ const MyFooter = () => <footer className="page-footer">
           
             
 
-    <div className="footer-copyright text-center py-3">Taylor Franklin: ©2022 Copyright
+    <div className="footer-copyright text-center">Taylor Franklin| ©2022 Copyright
        
     </div>
     </div>

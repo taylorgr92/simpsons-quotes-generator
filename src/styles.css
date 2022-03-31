@@ -127,9 +127,12 @@ image{
   justify-content: center;
 }
 
-.page-footer {
-  color: black;
-  ;
+.footer-copyright {
+  color: white;
+  text-shadow: 2px 0px 4px rgba(0, 0, 0, 0.65);
+  padding-bottom:.5rem;
+ 
+  
   
   
 
