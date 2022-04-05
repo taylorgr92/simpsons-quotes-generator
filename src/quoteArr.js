@@ -64,24 +64,24 @@ const quotes = [
   },
   {
     quote: "Shut up, brain! I've got friends now. I don't need you anymore.",
-    author: "Lisa Simpson",
+    author: "-Lisa Simpson",
     image: "/img/lisa-simpson.png",
   },
   {
     quote:
       " I don't get. Straight A's, perfect attendance, bathroom timer. I should be the most popular girl in school.",
-    author: "Lisa Simpson",
+    author: "-Lisa Simpson",
     image: "/img/lisa-simpson.png",
   },
   {
     quote:
       "Ah, there's nothing more exciting than science. You get all the fun of sitting still, being quiet, writing down numbers, paying attention... Science has it all.",
-    author: "Principle Seymour Skinner",
+    author: "-Principle Seymour Skinner",
     image: "/img/principle-skinner.png",
   },
   {
     quote: "Oh no, I said 'steamed hams'. That's what I call hamburgers.",
-    author: "Principle Seymour Skinner",
+    author: "-Principle Seymour Skinner",
     image: "/img/principle-skinner.png",
   },
   {
@@ -92,7 +92,7 @@ const quotes = [
   {
     quote:
       "Fame was like a drug, but what was even more like a drug were the drugs.",
-    author: "Homer Simpson",
+    author: "-Homer Simpson",
     image: "img/homer-prance.png",
   },
   {
@@ -150,7 +150,7 @@ const quotes = [
   },
   {
     quote:
-      "I'm a white male, age 18 to 49. Everyone listens to me, no matter how dumb my suggestions are",
+      "I'm a white male, age 18 to 49. Everyone listens to me, no matter how dumb my suggestions are!",
     author:"-Homer Simpson",
     image: "img/homer-prance.png",
   },
@@ -281,12 +281,17 @@ const quotes = [
     image: "/img/troy-mcclure.png",
   },
   {
-    quote: "Eat my Shorts!",
+    quote: "Eat my shorts!",
     author: "-Bart Simpson",
     image: "img/bart-simpson.png",
   },
   {
     quote: "Don't have a cow, man!",
+    author: "-Bart Simpson",
+    image: "img/bart-simpson.png",
+  },
+  {
+    quote: "Ay, caramba!",
     author: "-Bart Simpson",
     image: "img/bart-simpson.png",
   },
@@ -318,7 +323,7 @@ const quotes = [
   },
   {
     quote:
-      "Hello! I'm Troy McClure. You may remember me from such self-help videos as 'Smoke Yourself Thin' and 'Get Confident, Stupid!'.",
+      "Hello! I'm Troy McClure. You may remember me from such self-help videos as 'Smoke Yourself Thin!' and 'Get Confident, Stupid!'.",
     author: "-Troy McClure",
     image: "img/troy-mcclure.png",
   },
@@ -456,7 +461,7 @@ const quotes = [
   {
     quote: "Uh, no, they're saying, 'Boo-urns! Boo-urns!",
     author: "-Waylon Smithers",
-    image: "/img/Waylon-Smithers",
+    image: "/img/Waylon_Smithers.png",
   },
   {
     quote: "There goes the last lingering thread of my heterosexuality.",
@@ -486,7 +491,7 @@ const quotes = [
   },
   {
     quote:
-      "He's had it in for me ever since I kinda ran over his dog. Well, replace the word 'kinda' with the word 'repeatedly,' and the word 'dog' with 'son.",
+      "He's had it in for me ever since I kinda ran over his dog. Well, replace the word 'kinda' with the word 'repeatedly,' and the word 'dog' with 'son.'",
     author: "-Lionel Hutz",
     image: "/img/lionel-hutz.png",
   },
@@ -499,7 +504,7 @@ const quotes = [
   {
     quote:
       "Oh, I have had it, I have had it with this school, Skinner! The low test scores, class after class of ugly, ugly children!",
-    author: "- Superintendent Chalmers",
+    author: "-Superintendent Chalmers",
     image: "/img/superintendent-chalmers.png",
   },
   {

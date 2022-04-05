@@ -1,5 +1,7 @@
 import QuoteBox from "./quote-box";
+import HamNav from './HamNavbar.js'
 import React from "react";
+
 import "./styles.css";
 
 import quotes from "./quoteArr";
@@ -34,11 +36,14 @@ class App extends React.Component {
   render() {
     return (
       <div>
+        <HamNav/>
+    
+     
         <h1 className="page-title">Simpsons Quote Generator!</h1>
 
         <QuoteBox handleClick={this.handleClick} {...this.state} />
 
-        <div className="footer">
+        <div className="footer-container">
         <p className= "footer-text">Taylor Franklin | 
        &copy; 2022</p>
         </div>
