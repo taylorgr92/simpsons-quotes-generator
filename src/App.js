@@ -1,5 +1,5 @@
 import QuoteBox from "./quote-box";
-import HamNav from './HamNavbar.js'
+import ToggleMenu from './ToggleMenu.js'
 import React from "react";
 
 import "./styles.css";
@@ -36,7 +36,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <HamNav/>
+      
     
      
         <h1 className="page-title">Simpsons Quote Generator!</h1>

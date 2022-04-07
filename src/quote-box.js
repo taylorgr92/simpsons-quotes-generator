@@ -9,7 +9,7 @@ class QuoteBox extends React.Component {
             
             <p className="quote-text">{this.props.quote}</p>
 
-            <img src={this.props.image} alt="simpsons-character" />
+            <img src={this.props.image} alt="simpsons-character" id="simpson-image"/>
 
            
               <p className="author-text" >{this.props.author}</p>
@@ -19,7 +19,7 @@ class QuoteBox extends React.Component {
               Next Quote
               </button>
               </div>
-           
+            
           
         
     
