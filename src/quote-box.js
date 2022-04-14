@@ -4,6 +4,7 @@ import React from "react";
 class QuoteBox extends React.Component {
   render() {
     return (
+      <>
       <div>
         <div className="quote-container">
           <p className="quote-text">{this.props.quote}</p>
@@ -23,6 +24,7 @@ class QuoteBox extends React.Component {
         </div>
 
       </div>
+      </>
     );
   }
 }

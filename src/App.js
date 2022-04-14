@@ -48,8 +48,9 @@ class App extends React.Component {
         <h1 className="page-title">Simpsons Quote Generator!</h1>
    
         <QuoteBox handleClick={this.handleClick} {...this.state} />
-        
+    
       <MyFooter />
+     
       </>
       
     );
