@@ -1,5 +1,6 @@
 import React from "react";
-import { Navbar, Container, Nav } from "react-bootstrap";
+import { Nav, Navbar,Container } from "react-bootstrap";
+
 
 const ToggleMenu = () => {
   return (
@@ -21,3 +22,5 @@ const ToggleMenu = () => {
 };
 
 export default ToggleMenu;
+
+
