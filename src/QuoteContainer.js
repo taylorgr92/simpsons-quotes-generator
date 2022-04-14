@@ -1,5 +1,5 @@
 import React from "react";
-import {Button} from 'react-bootstrap'
+
 
 class QuoteContainer extends React.Component {
   render() {
