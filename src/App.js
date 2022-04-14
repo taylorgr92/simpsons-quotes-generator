@@ -3,7 +3,7 @@ import React from "react";
 
 import "./styles.css";
 import MyFooter from './MyFooter';
-
+import ToggleMenu from "./ToggleMenu";
 import quotes from "./QuoteArr";
 
 
@@ -36,17 +36,16 @@ class App extends React.Component {
 
   render() {
     return (
-
-    <div>
-    <div>
+<div>
+<ToggleMenu/>
         <h1 className="page-title">Simpsons Quote Generator!</h1>
-        </div>
+    
         <QuoteBox handleClick={this.handleClick} {...this.state} />
     
       <MyFooter />
 
       </div>
- 
+
       
     );
   }
