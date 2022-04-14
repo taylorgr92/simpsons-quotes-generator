@@ -1,4 +1,4 @@
-import QuoteBox from "./quote-box";
+import QuoteBox from "./quote-container";
 import React from "react";
 
 import "./styles.css";
