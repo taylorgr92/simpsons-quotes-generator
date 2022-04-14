@@ -1,11 +1,9 @@
 import QuoteBox from "./quote-box";
-import ToggleMenu from './ToggleMenu.js'
 import React from "react";
 
 import "./styles.css";
-import MyFooter from './MyFooter'
-import ToggleMenu from "./ToggleMenu"
-
+import MyFooter from './MyFooter';
+import ToggleMenu from "./ToggleMenu";
 import quotes from "./quoteArr";
 
 

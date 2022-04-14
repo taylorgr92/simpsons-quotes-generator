@@ -10,16 +10,11 @@ class QuoteBox extends React.Component {
 
          
             
-            <p className="quote-text">{this.props.quote}</p>
+            <img src={this.props.image} alt="Simpsons character"/>
 
         
-       
-          <div className="author-section">
-            <p className="author-text">{this.props.author}</p>
-          </div>
 
-           
-              <p className="author-text" >{this.props.author}</p>
+           <p class="author-name">{this.props.name}</p>
           </div> 
 
       </div>
