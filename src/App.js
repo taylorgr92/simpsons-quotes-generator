@@ -1,4 +1,4 @@
-import QuoteBox from "./quote-container";
+import QuoteBox from "./QuoteContainer";
 import React from "react";
 
 import "./styles.css";
@@ -37,7 +37,7 @@ class App extends React.Component {
   render() {
     return (
       <>
-       <ToggleMenu/>
+    
         <h1 className="page-title">Simpsons Quote Generator!</h1>
 
         <QuoteBox handleClick={this.handleClick} {...this.state} />
