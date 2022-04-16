@@ -1,6 +1,7 @@
 import React from "react";
 import { Nav, Navbar,Container } from "react-bootstrap";
 
+
 const ToggleMenu = () => {
 
   return (
@@ -14,8 +15,8 @@ const ToggleMenu = () => {
             style={{ maxHeight: "100px" }}
             navbarScroll
           >
-            <Nav.Link href="home" style={{color:"white"}} className="link">Home</Nav.Link>
-            <Nav.Link href="contact"style={{color:"white"}} className= "link">Contact</Nav.Link>
+            <Nav.Link href="/home" style={{color:"white"}} className="link">Home</Nav.Link>
+            <Nav.Link href="/contact" style={{color:"white"}} className= "link">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
