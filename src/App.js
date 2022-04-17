@@ -5,6 +5,7 @@ import Home from "./components/HomePage";
 import ContactMe from "./components/ContactMe";
 import {Route, Routes} from "react-router-dom";
 import "./styles.css";
+
 class App extends React.Component {
   render() {
     return (

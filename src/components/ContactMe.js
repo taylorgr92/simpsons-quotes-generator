@@ -1,9 +1,14 @@
 import React from 'react'
+import {Card} from "react-bootstrap";
 
 const ContactMe = () => {
     return(
     
-        <h1>Hi!</h1>
+       <div>
+<Card className= "contact-card">
+
+</Card>
+       </div>
     )
 }
 
