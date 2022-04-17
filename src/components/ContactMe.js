@@ -8,22 +8,22 @@ const ContactMe = () => {
   return (
     <div>
       <Card className="contact-card">
-        <Card.Title className="mx-auto"> Taylor Franklin </Card.Title>{" "}
+        <Card.Title className="card-title mx-auto">
+          {" "}
+          Taylor Franklin{" "}
+        </Card.Title>{" "}
         <Row>
           <Col>
-            <Container className="my-phone">
-              <FontAwesomeIcon icon={faPhone} />
-            </Container>
+            <FontAwesomeIcon icon={faPhone} className="phone" />
+            <span className="icon-info"> 922 - 381 - 7505 </span>{" "}
           </Col>{" "}
           <Col>
-            <Container className="my-email">
-              <FontAwesomeIcon icon={faEnvelope} />
-            </Container>
+            <FontAwesomeIcon icon={faEnvelope} className="email" />
+            <span className="icon-info"> taylorgfranklin @gmail.com </span>{" "}
           </Col>{" "}
           <Col>
-            <Container className="my-git">
-              <FontAwesomeIcon icon={faGithub} />
-            </Container>{" "}
+            <FontAwesomeIcon icon={faGithub} className="git" />
+            <span className="icon-info"> taylorgr92 </span>{" "}
           </Col>{" "}
         </Row>{" "}
       </Card>{" "}
