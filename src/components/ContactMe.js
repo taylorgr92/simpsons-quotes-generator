@@ -1,5 +1,7 @@
 import React from "react";
 import { Card, Row, Col } from "react-bootstrap";
+import { FontAwesomeIcon } from  "@fortawesome/react-fontawesome";
+import {faPhone} from '@fortawesome/free-solid-svg-icons'
 
 const ContactMe = () => {
   return (
@@ -7,7 +9,7 @@ const ContactMe = () => {
       <Card className="contact-card">
         <Card.Title className="mx-auto"> Taylor Franklin </Card.Title>{" "}
         <Row>
-          <Col>1 </Col> <Col>2 </Col> <Col>3 </Col>{" "}
+          <Col><FontAwesomeIcon icon={faPhone}/> </Col> <Col>2 </Col> <Col>3 </Col>{" "}
         </Row>{" "}
       </Card>{" "}
     </div>
