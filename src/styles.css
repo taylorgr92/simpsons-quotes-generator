@@ -176,3 +176,9 @@ background-color: black;
 margin-right: auto;  
 margin-top: 15rem;
 }
+
+.mx-auto {
+  color: red;
+  margin-top: 2rem;
+  font-size: 3em;
+}
