@@ -1,8 +1,8 @@
 import React from "react";
-import { Card, Row, Col, Container } from "react-bootstrap";
+import { Card, Row, Col } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faPhone, faEnvelope} from "@fortawesome/free-solid-svg-icons";
+import { faGithub, faLinkedin  } from "@fortawesome/free-brands-svg-icons";
 
 const ContactMe = () => {
   return (
@@ -13,18 +13,19 @@ const ContactMe = () => {
           Taylor Franklin{" "}
         </Card.Title>{" "}
         <Row>
+          
           <Col>
-            <FontAwesomeIcon icon={faPhone} className="phone" />
-            <span className="icon-info"> 922 - 381 - 7505 </span>{" "}
+            <FontAwesomeIcon icon={faEnvelope} className="icon" />
+         
           </Col>{" "}
           <Col>
-            <FontAwesomeIcon icon={faEnvelope} className="email" />
-            <span className="icon-info"> taylorgfranklin @gmail.com </span>{" "}
+            <FontAwesomeIcon icon={faGithub} className="icon" />
+          
           </Col>{" "}
           <Col>
-            <FontAwesomeIcon icon={faGithub} className="git" />
-            <span className="icon-info"> taylorgr92 </span>{" "}
-          </Col>{" "}
+          <FontAwesomeIcon icon= {faLinkedin} className= "icon"/>
+         
+          </Col>
         </Row>{" "}
       </Card>{" "}
     </div>
