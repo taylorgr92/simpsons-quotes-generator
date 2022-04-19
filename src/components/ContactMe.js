@@ -15,7 +15,7 @@ const ContactMe = () => {
         <Row>
           
           <Col>
-            <FontAwesomeIcon icon={faEnvelope} className="icon" />
+            <FontAwesomeIcon icon={faEnvelope} className="icon" onClick={() =>window.location.href = "mailto:taylorgfranklin@gmail.com"}/>
          
           </Col>{" "}
           <Col>
