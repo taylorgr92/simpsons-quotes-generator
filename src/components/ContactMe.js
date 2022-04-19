@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, Row, Col } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPhone, faEnvelope} from "@fortawesome/free-solid-svg-icons";
+import {faEnvelope} from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin  } from "@fortawesome/free-brands-svg-icons";
 
 const ContactMe = () => {
@@ -19,11 +19,11 @@ const ContactMe = () => {
          
           </Col>{" "}
           <Col>
-            <FontAwesomeIcon icon={faGithub} className="icon" onClick={() => window.location= ''} />
+            <FontAwesomeIcon icon={faGithub} className="icon" onClick={() => window.open('https://github.com/taylorgr92')} />
           
           </Col>{" "}
           <Col>
-          <FontAwesomeIcon icon= {faLinkedin} className= "icon"/>
+          <FontAwesomeIcon icon= {faLinkedin} className= "icon" onClick={() => window.open("https://www.linkedin.com/in/taylorgfranklin")}/>
          
           </Col>
         </Row>{" "}
