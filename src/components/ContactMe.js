@@ -19,7 +19,7 @@ const ContactMe = () => {
          
           </Col>{" "}
           <Col>
-            <FontAwesomeIcon icon={faGithub} className="icon" />
+            <FontAwesomeIcon icon={faGithub} className="icon" onClick={() => window.location= ''} />
           
           </Col>{" "}
           <Col>
