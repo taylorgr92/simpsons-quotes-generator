@@ -22,7 +22,7 @@ body {
   font-family: "Fuzzy Bubbles", bold;
   font-weight: bold;
   text-align: center;
-  margin-top: 5rem;
+  margin-top: 4rem;
   font-size: 5em;
   text-shadow: 2px 0px 4px rgba(0, 0, 0, 0.822);
   color: rgb(241, 243, 104);
@@ -40,7 +40,7 @@ body {
   text-align: center;
   max-height: 30rem;
 
-  margin-top: 4.5em;
+  margin-top: 4em;
   border-radius: 1px;
   box-shadow: 0px 0px 0px 8px rgba(124, 124, 124, 0.294);
   outline: 8px dashed #bd7385e1;
@@ -81,6 +81,7 @@ div .author-name {
 
 .quote-button:hover {
   background-color: #11a30c;
+  cursor: pointer;
 }
 .quote-button:active {
   position: relative;
@@ -106,6 +107,7 @@ div .author-name {
   margin-bottom: 1rem;
   position: relative;
   font-weight: 550;
+  cursor: pointer;
 }
 
 .footer-container {
@@ -116,19 +118,23 @@ div .author-name {
   bottom: 0;
   left: 0;
   width: 100%;
-  color: white;
-  background-color: black;
+  color: #030303e1;
+  background-color: #75c3e3;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 10rem;
+ height:3rem;
+ font-weight: bold;
+ font-size: 1.5em;
+ 
 }
 
 .footer-text {
   text-align: center;
+  font-weight: bold;
 
-  font-size: 1.25em;
-  color: rgb(241, 243, 104);
+
   text-shadow: 2px 0px 4px rgba(0, 0, 0, 0.63);
 }
 
@@ -214,3 +220,38 @@ color:white;
 div h2 {
   text-shadow: 2px 2px 2px #20202033;
 }
+
+
+.navbar-menu  {
+  background-color: rgb(180, 241, 139);
+ 
+}
+
+.navbar-toggle{
+  color:white;
+  width: 75px;
+  height: 50px
+ 
+}
+
+div .card-title {
+
+}
+.navbar .simpsons-brand{
+
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+  }
+  .navbar .simpsons-brand:hover, .hvr-bounce-in:focus, .hvr-bounce-in:active {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+    transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  }
+  
+  /* Bounce Out */

@@ -8,7 +8,7 @@ const MyFooter = () => {
     <div className="fixed-bottom">
 
     
-    <footer className="page-footer">Taylor Franklin | ©2022 Copyright
+    <footer className="page-footer">Taylor Franklin | ©2022
 
   
 </footer>

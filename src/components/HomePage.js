@@ -32,7 +32,7 @@ class Home extends React.Component {
   render() {
     return (
       <div>
-        <h1 className="page-title">Simpsons Quote Generator!</h1>
+        <h1 className="page-title">Simpsons Quote Generator</h1>
         <div className="detail-p">
          <h2>
           Want to find a new favorite quote from one of the beloved residents of Springfield? </h2><span><h2>Press the button below!
