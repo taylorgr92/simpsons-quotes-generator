@@ -18,7 +18,7 @@ class QuoteContainer extends React.Component {
             <img src={this.props.image} alt="Simpsons character" className= "simspson-image"/>
 
 
-           <p class="author-name" style={{color:"white"}}>{this.props.author}</p>
+           <p class="author-name">{this.props.author}</p>
 
 
            <button className="quote-button" onClick={this.props.handleClick}>
