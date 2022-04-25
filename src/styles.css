@@ -132,6 +132,7 @@ div.contact-card {
   margin-top: 15rem;
   outline: 8px dashed #bd7385e1;
   max-width: 75%;
+  max-height:100%
 }
 
 div .row {
@@ -139,11 +140,15 @@ div .row {
   margin-right: 10%;
   margin-top: 3.25rem;
   margin-bottom: auto;
+
+
 }
 
 div .col {
   font-size: 4rem;
   margin-left: 4.5rem;
+  position:relative;
+
 }
 div .icon {
   position: relative;
@@ -235,7 +240,7 @@ div .card-title {
   border-bottom-left-radius:6px;
   border-bottom-right-radius:6px;
   box-shadow:inset 0px 1px 0px 0px #caefab;
-  text-shadow:inset 0px 1px 0px #aade7c;
+  text-shadow:inset 0px 1px 0px #c5c9c2;
   background:linear-gradient(#77d42a, #5cb811);
   
 }

@@ -12,10 +12,10 @@ const ContactMe = () => {
           {" "}
           Taylor Franklin
         </Card.Title>
-      
+
         <Row>
           
-          <Col>
+          <Col >
           <div className="hvr-grow" id="gmail">
             <FontAwesomeIcon icon={faEnvelope} className="icon" onClick={() =>window.location.href = "mailto:taylorgfranklin@gmail.com"}/>
          </div>
@@ -31,7 +31,7 @@ const ContactMe = () => {
          </div>
           </Col>
         </Row>{" "}
-       
+
       </Card>{" "}
     </div>
  
