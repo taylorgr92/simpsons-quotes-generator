@@ -20,12 +20,14 @@ class QuoteContainer extends React.Component {
 
            <p class="author-name">{this.props.author}</p>
 
-
-           <button className="hvr-push" onClick={this.props.handleClick}>
+<div >
+           <button className="quote-button" onClick={this.props.handleClick}>
             Next Quote!
           </button>
-          </div> 
           </div>
+      
+    </div>
+    </div>
 
 
 
