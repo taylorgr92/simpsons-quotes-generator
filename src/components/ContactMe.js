@@ -3,11 +3,12 @@ import { Card, Row, Col } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import {motion} from 'framer-motion/dist/framer-motion';
 
 
 const ContactMe = () => {
   return (
-    <div>
+    <motion.div>
       <Card className="contact-card">
         <Card.Title className="card-title mx-auto"> Taylor Franklin</Card.Title>
         <Row>
@@ -44,7 +45,7 @@ const ContactMe = () => {
           </Col>
         </Row>{" "}
       </Card>{" "}
-    </div>
+    </motion.div>
   );
 };
 

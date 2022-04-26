@@ -1,6 +1,8 @@
 import React from "react";
 import QuoteContainer from "./QuoteContainer";
 import quotes from "./quote-arr.js";
+import {motion} from 'framer-motion/dist/framer-motion'
+
 
 class Home extends React.Component {
   constructor() {
@@ -31,7 +33,7 @@ class Home extends React.Component {
 
   render() {
     return (
-      <div>
+      <motion.div>
         <h1 className="page-title">Simpsons Quote Generator</h1>
         <div className="detail-p">
          <h2>
@@ -40,7 +42,7 @@ class Home extends React.Component {
           </div>
 
         <QuoteContainer handleClick={this.handleClick} {...this.state} />
-      </div>
+      </motion.div>
     );
   }
 }

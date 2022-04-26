@@ -5,7 +5,7 @@ import Home from "./components/HomePage";
 import ContactMe from "./components/ContactMe";
 import { Route, Routes } from "react-router-dom";
 import "./styles.css";
-import {AnimatePresence} from 'framer-motion/dist/framer-motion'
+import {AnimatePresence, motion} from 'framer-motion/dist/framer-motion'
 
 class App extends React.Component {
   render() {
@@ -21,6 +21,7 @@ class App extends React.Component {
         </AnimatePresence>
 
         <MyFooter />
+      
       </div>
     );
   }
