@@ -32,7 +32,7 @@ class Home extends React.Component {
 
   render() {
     return (
-      <motion.div  initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={0}>
+      <motion.div  initial="out" animate="in" exit="out" variants= {pageTransition}>
         <h1 className="page-title">Simpsons Quote Generator</h1>
         <div className="detail-p">
           <h2>

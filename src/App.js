@@ -9,6 +9,7 @@ import {AnimatePresence, motion} from 'framer-motion/dist/framer-motion'
 
 class App extends React.Component {
   render() {
+
     return (
       <div>
         <ToggleMenu />
