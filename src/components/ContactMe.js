@@ -8,7 +8,7 @@ import {motion} from 'framer-motion/dist/framer-motion';
 
 const ContactMe = () => {
   return (
-    <motion.div>
+ <motion.div  initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={0}>
       <Card className="contact-card">
         <Card.Title className="card-title mx-auto"> Taylor Franklin</Card.Title>
         <Row>
