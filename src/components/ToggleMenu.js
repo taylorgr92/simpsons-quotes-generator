@@ -6,7 +6,7 @@ import { Nav, Navbar,Container } from "react-bootstrap";
 const ToggleMenu = () => {
 
   return (
-    <Navbar expand={false} className= "navbar-menu">
+    <Navbar className= "navbar-menu">
       <Container fluid>
         <Navbar.Brand href="/home" className="simpsons-brand">
           <img src="img/simpson-house2.png" alt= "Simpson House" />
@@ -19,8 +19,7 @@ const ToggleMenu = () => {
             style={{ maxHeight: "110px" }}
             navbarScroll
           >
-            <Nav.Link href="/home" className="link">Home</Nav.Link>
-            <Nav.Link href="/contact" className= "link">Contact</Nav.Link>
+            <Nav.Link href="/contact" className= "link" style={{color:"white"}}>Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
