@@ -19,7 +19,7 @@ const ToggleMenu = () => {
             style={{ maxHeight: "110px" }}
             navbarScroll
           >
-            <Nav.Link href="/contact" className= "link" style={{color:"white"}}>Contact</Nav.Link>
+            <Nav.Link href="/contact" className= "nav-link" style={{color:"white"}}>Contact Me</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
