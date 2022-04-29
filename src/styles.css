@@ -127,14 +127,12 @@ div.contact-card {
   flex-direction: column;
   justify-content: center;
   background-color: #75c4e3ce;
-  width: 70rem;
-  height: 27rem;
   margin-left: auto;  
   margin-right: auto;
-  margin-top: 15rem;
+  margin-top: 12rem;
   outline: 8px dashed #9460a8;
-  max-width: 75%;
-  max-height:100%
+max-width:50%;
+
 }
 
 div .row {
@@ -153,12 +151,13 @@ div .col {
 
 }
 div .icon {
-  position: relative;
+  display:flex;
   color: rgb(255, 255, 255);
-  font-size: 1.25em;
   cursor: pointer;
-  font-size: 5.75rem;
+  font-size: 6rem;
   text-shadow: 2px 0px 4px rgba(0, 0, 0, 0.822);
+  margin-bottom: 7rem;
+
 }
 
 .hvr-grow {
@@ -198,8 +197,9 @@ div .card-title {
   font-family: "Fuzzy Bubbles", bold;
   color: rgb(241, 243, 104);
   margin-top: 3rem;
-  font-size: 5em;
+  font-size: 4em;
   text-shadow: 2px 0px 4px rgba(0, 0, 0, 0.822);
+  align-self:center;
 }
 
 /* Push */
@@ -255,6 +255,8 @@ div .card-title {
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
+  font-size: 1.27em;
+
 }
 .navbar .nav-link:hover,
 .nav-link:focus,
@@ -264,3 +266,5 @@ div .card-title {
   -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
   transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
 }
+
+
