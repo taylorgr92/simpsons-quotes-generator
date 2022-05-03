@@ -45,7 +45,7 @@ class Home extends React.Component {
             <h2>Press the button below!</h2>
           </span>
         </div>
-
+ 
         <QuoteContainer handleClick={this.handleClick} {...this.state} />
       </motion.div>
     );
