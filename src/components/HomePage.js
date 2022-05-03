@@ -3,6 +3,7 @@ import QuoteContainer from "./QuoteContainer";
 import quotes from "./quote-arr.js";
 import { motion } from "framer-motion/dist/framer-motion";
 
+/*quote generator*/
 class Home extends React.Component {
   constructor() {
     super();
@@ -32,6 +33,7 @@ class Home extends React.Component {
 
   render() {
     return (
+      
       <motion.div  initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={0}>
         <h1 className="page-title">Simpsons Quote Generator</h1>
         <div className="detail-p">
