@@ -12,7 +12,7 @@ const ContactMe = () => {
       <Card className="contact-card">
         <Card.Title className="card-title mx-auto"> Taylor Franklin</Card.Title>
         <Row>
-          <Col>git status
+          <Col>
             <div className="hvr-grow" id="gmail">
               <FontAwesomeIcon
                 icon={faEnvelope}
