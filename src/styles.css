@@ -128,17 +128,18 @@ div.contact-card {
   background-color: #75c4e3ce;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 12rem;
+  margin-top: 8rem;
   outline: 8px dashed #9460a8;
+  width: 50rem;
   max-width: 50%;
-max-height:60%;
+  max-height: 100%;
 margin-bottom:4rem
 }
 
 div .row {
   margin-left: 10%;
   margin-right: 10%;
-  margin-top: 3.25rem;
+  margin-top: 2rem;
   margin-bottom: auto;
 }
 
@@ -152,7 +153,7 @@ div .icon {
   margin-bottom: 7rem;
   color: rgb(255, 255, 255);
   cursor: pointer;
-  font-size: 6rem;
+  font-size: 5rem;
   text-shadow: 2px 0px 4px rgba(0, 0, 0, 0.822);
 }
 
@@ -196,7 +197,7 @@ div .card-title {
   margin-top: 3rem;
   font-family: "Fuzzy Bubbles", bold;
   color: rgb(241, 243, 104);
-  font-size: 4em;
+  font-size: 3.5em;
   text-shadow: 2px 0px 4px rgba(0, 0, 0, 0.822);
 }
 
@@ -222,7 +223,7 @@ div .card-title {
 
 /* Push */
 
-.quote-button {
+ div .quote-button {
   font-size: 1.7em;
   font-family: Arial;
   width: 13rem;
@@ -238,11 +239,12 @@ div .card-title {
   box-shadow: inset 0px 1px 0px 0px #caefab;
   text-shadow: inset 0px 1px 0px #c5c9c2;
   background: linear-gradient(#77d42a, #5cb811);
-  margin-bottom: 1.2rem;
+  margin-bottom: 1.7rem;
 }
 
 .quote-button:hover {
   background: linear-gradient(#5cb811, #77d42a);
+
 }
 
 .navbar .nav-link {

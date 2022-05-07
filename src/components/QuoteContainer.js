@@ -1,5 +1,6 @@
 import React from "react";
 
+
 class QuoteContainer extends React.Component {
   render() {
     return (
@@ -25,5 +26,6 @@ class QuoteContainer extends React.Component {
     );
   }
 }
+
 
 export default QuoteContainer;

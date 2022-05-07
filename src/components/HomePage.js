@@ -3,6 +3,7 @@ import QuoteContainer from "./QuoteContainer";
 import quotes from "./quote-arr.js";
 import { motion } from "framer-motion/dist/framer-motion";
 
+
 /*quote generator*/
 class Home extends React.Component {
   constructor() {
