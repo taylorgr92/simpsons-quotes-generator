@@ -79,11 +79,11 @@ div .author-name {
   text-shadow: 2px 0px 4px rgba(0, 0, 0, 0.63);
 }
 
-.footer-container {
- position: relative
-}
+
 
 .page-footer {
+  position:fixed;
+  height: 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -104,6 +104,19 @@ div .footer-text {
   text-align: center;
   font-weight: bold;
   text-shadow: 2px 0px 4px rgba(189, 189, 189, 0.377);
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10rem;
+  height: 3rem;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-shadow: 2px 0px 4px rgba(0, 0, 0, 0.822);
+  color: rgb(241, 243, 104);
+  background-color: #75c3e3;
+  font-weight: bold;
+  font-size: 1.75em;
 }
 
 .simpson-image {

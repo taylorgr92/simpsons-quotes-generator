@@ -40,7 +40,7 @@ class Home extends React.Component {
         <div className="detail-p">
           <h2>
             Want to find a new favorite quote from one of the beloved residents
-            of Springfield? xxx{" "}
+            of Springfield?{" "}
           </h2>
           <span>
             <h2>Press the button below!</h2>
