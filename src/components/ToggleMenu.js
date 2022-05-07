@@ -1,11 +1,13 @@
 import React from "react";
 import { Nav, Navbar,Container } from "react-bootstrap";
+import { motion } from "framer-motion/dist/framer-motion";
 
 
 
 const ToggleMenu = () => {
 
   return (
+
     <Navbar className= "navbar-menu">
       <Container fluid>
         <Navbar.Brand href="/home" className="simpsons-brand">
@@ -24,6 +26,7 @@ const ToggleMenu = () => {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+  
   );
 };
 
