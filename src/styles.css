@@ -96,7 +96,7 @@ div .author-name {
   color: rgb(241, 243, 104);
   background-color: #75c3e3;
   font-weight: bold;
-  font-size: 1.75em;
+  font-size: 2em;
 
 }
 
@@ -147,7 +147,7 @@ div.contact-card {
   max-width: 50%;
   max-height: 100%;
 margin-bottom:4rem;
-font-size: 1.5em;
+font-size: 1.3em;
 
 }
 
@@ -157,6 +157,7 @@ div .row {
   margin-top: 2rem;
   margin-bottom: auto;
 
+
 }
 
 div .col {
@@ -165,6 +166,7 @@ div .col {
   position: relative;
   justify-content: center;
   align-items:center;
+  margin:0;
 }
 div .icon {
   display: flex;
@@ -173,6 +175,7 @@ div .icon {
   cursor: pointer;
   font-size: 1.75em;
   text-shadow: 2px 0px 4px rgba(0, 0, 0, 0.822);
+ 
 }
 
 .hvr-grow {
@@ -207,7 +210,7 @@ div h2 {
 .navbar-menu {
   background-color: #5fc936;
   font-size: 1.25em;
-  height:4rem;
+  height:4.5rem;
 }
 
 div .card-title {
@@ -271,15 +274,16 @@ div .card-title {
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-transition-duration: 0.5s;
-  transition-duration: 0.5s;
-  font-size: 1.27em;
+  -webkit-transition-duration: 0.75s;
+  transition-duration: 0.75s;
+  font-size: 1.25em;
+
 }
 .navbar .nav-link:hover,
 .nav-link:focus,
 .nav-link:active {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
   -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
   transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
 }

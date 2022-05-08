@@ -1,6 +1,5 @@
 import React from "react";
 import { Nav, Navbar,Container } from "react-bootstrap";
-import { motion } from "framer-motion/dist/framer-motion";
 
 
 
@@ -21,7 +20,7 @@ const ToggleMenu = () => {
             style={{ maxHeight: "110px" }}
             navbarScroll
           >
-            <Nav.Link href="/contact" className= "nav-link" style={{color:"white"}}>Contact Me</Nav.Link>
+            <Nav.Link href="/contact" className= "hvr-bounce-in" style={{color:"white"}}>Contact Me</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
