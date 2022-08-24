@@ -335,7 +335,7 @@ const quotes = [
   },
   {
     quote:
-      " If you ask me they're all winners. We'll be cutting our first 40 contestants right after this.",
+      " If you ask me they're all winners! We'll be cutting our first 40 contestants right after this.",
     author: "-Troy McClure",
     image: "img/troy-mcclure.png",
   },
@@ -421,7 +421,7 @@ const quotes = [
   },
   {
     quote:
-      "I just realized we never had a wedding for the cat and the dog. They've been living in sin.",
+      "I just realized we never had a wedding for the cat and the dog. They've been living in sin!",
     author: "-Marge Simpson",
     image: "img/marge-simpson.png",
   },
@@ -523,8 +523,8 @@ const quotes = [
     image: "img/todd-flanders.png",
   },
   {
-    author: "-Homer Simpson",
     quote: "-Kill my boss?! Do I dare live out the American dream?",
+    author: "-Homer Simpson",
     image: "img/homer-smart.png",
   },
 ];
