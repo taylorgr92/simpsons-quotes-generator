@@ -151,7 +151,7 @@ const quotes = [
   {
     quote:
       "I'm a white male, age 18 to 49. Everyone listens to me, no matter how dumb my suggestions are!",
-    author:"-Homer Simpson",
+    author: "-Homer Simpson",
     image: "img/homer-prance.png",
   },
   {
@@ -355,7 +355,6 @@ const quotes = [
       "Okay, I'm not going to give up. Solitude never hurt anyone. Emily Dickinson lived alone, and she wrote some of the most beautiful poetry the world has ever known...then went crazy as a loon.",
     author: "-Lisa Simpson",
     image: "/img/lisa-simpson.png",
-
   },
   {
     quote:

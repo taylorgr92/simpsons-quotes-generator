@@ -1,13 +1,10 @@
 import React from "react";
-import { Nav, Navbar,Container } from "react-bootstrap";
-
+import { Nav, Navbar, Container } from "react-bootstrap";
 
 const ToggleMenu = () => {
-
   return (
     <Navbar expand="md">
       <Container fluid>
-   
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -15,8 +12,16 @@ const ToggleMenu = () => {
             style={{ maxHeight: "100px" }}
             navbarScroll
           >
-            <Nav.Link href="/home" style={{color:"white"}} className="link">Home</Nav.Link>
-            <Nav.Link href="/contact" style={{color:"white"}} className= "link">Contact</Nav.Link>
+            <Nav.Link href="/home" style={{ color: "white" }} className="link">
+              Home
+            </Nav.Link>
+            <Nav.Link
+              href="/contact"
+              style={{ color: "white" }}
+              className="link"
+            >
+              Contact
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
