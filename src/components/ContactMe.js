@@ -9,16 +9,16 @@ const ContactMe = () => {
     <div>
       <Card className="contact-card">
         <Card.Title className="card-title mx-auto">
-          {" "}
-          Taylor Franklin{" "}
-        </Card.Title>{" "}
+          
+          Taylor Franklin
+        </Card.Title>
         <Row>
           <Col>
             <FontAwesomeIcon icon={faEnvelope} className="icon" 
             onClick={() => (
               window.open("mailto:taylorgr92@gmail.com"))}
               />
-          </Col>{" "}
+          </Col>
 
           <Col>
             <FontAwesomeIcon
@@ -26,15 +26,15 @@ const ContactMe = () => {
               className="icon"
               onClick={() => (window.open("mailto:taylorgr92@gmail.com"))}
             />
-          </Col>{" "}
+          </Col>
 
           <Col>
             <FontAwesomeIcon icon={faLinkedin} className="icon" 
             onClick={() => (window.open("https://github.com/taylorgr92"))}
             />
           </Col>
-        </Row>{" "}
-      </Card>{" "}
+        </Row>
+      </Card>
     </div>
   );
 };
