@@ -167,3 +167,6 @@ div .icon {
   color: rgb(255, 255, 255);
   font-size: 2em;
 }
+.icon{
+cursor:pointer
+}
