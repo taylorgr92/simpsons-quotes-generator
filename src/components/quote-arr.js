@@ -30,19 +30,19 @@ const quotes = [
   {
     quote: "Loneliness and cheeseburgers are a dangerous mix.",
     author: "-Comic Book Guy",
-    image: "/img/comicbook-guy.png",
+    image: "img/comicbook-guy.png",
   },
   {
     quote:
       "Family, religion, friendship. These are the three demons you must slay if you wish to succeed in business.",
     author: "-Mr. Burns",
-    image: "/img/mr-burns.png",
+    image: "img/mr-burns.png",
   },
   {
     quote:
       "Ironic, isn't it Smithers? This anonymous clan of slack-jawed troglodytes has cost me the election, and yet if I were to have them killed, I would be the one to go to jail. That's democracy for you!",
     author: "-Mr. Burns",
-    image: "/img/mr-burns.png",
+    image: "img/mr-burns.png",
   },
   {
     quote:
@@ -65,29 +65,29 @@ const quotes = [
   {
     quote: "Shut up, brain! I've got friends now. I don't need you anymore.",
     author: "-Lisa Simpson",
-    image: "/img/lisa-simpson.png",
+    image: "img/lisa-simpson.png",
   },
   {
     quote:
       " I don't get. Straight A's, perfect attendance, bathroom timer. I should be the most popular girl in school.",
     author: "-Lisa Simpson",
-    image: "/img/lisa-simpson.png",
+    image: "img/lisa-simpson.png",
   },
   {
     quote:
       "Ah, there's nothing more exciting than science. You get all the fun of sitting still, being quiet, writing down numbers, paying attention... Science has it all.",
     author: "-Principle Seymour Skinner",
-    image: "/img/principle-skinner.png",
+    image: "img/principle-skinner.png",
   },
   {
     quote: "Oh no, I said 'steamed hams'. That's what I call hamburgers.",
     author: "-Principle Seymour Skinner",
-    image: "/img/principle-skinner.png",
+    image: "img/principle-skinner.png",
   },
   {
     quote: "If he’s so smart, how come he’s dead?",
     author: "-Homer Simpson",
-    image: "/img/homer-smart.png",
+    image: "img/homer-smart.png",
   },
   {
     quote:
@@ -123,7 +123,7 @@ const quotes = [
     quote:
       " A poem, by Hans Moleman: I think that I shall never see, my cataracts are blinding me.",
     author: "-Hans Moleman",
-    image: "/img/hans-molrmsn.png",
+    image: "img/hans-molrmsn.png",
   },
   {
     quote:
@@ -179,29 +179,29 @@ const quotes = [
   {
     quote: "Now what can I ding dong diddly do for you?",
     author: "-Ned Flanders",
-    image: "/img/ned-flanders.png",
+    image: "img/ned-flanders.png",
   },
   {
     quote: "Hi diddly ho neighborinos!",
     author: "-Ned Flanders",
-    image: "/img/ned-flanders.png",
+    image: "img/ned-flanders.png",
   },
   {
     quote: "Iron helps us play!",
     author: "-Todd Flanders",
-    image: "/img/todd-flanders.png",
+    image: "img/todd-flanders.png",
   },
   {
     quote:
       "I'm not thinking straight, why did I have that wine cooler last month?",
     author: "-Ned Flanders",
-    image: "/img/ned-flanders.png",
+    image: "img/ned-flanders.png",
   },
   {
     quote:
       "Bless the grocer for this wonderful meat, the middleman who jacked up the price, and let’s not forget the humane but determined boys at the slaughterhouse.",
     author: "-Ned Flanders",
-    image: "/img/ned-flanders.png",
+    image: "img/ned-flanders.png",
   },
   {
     quote:
@@ -213,61 +213,61 @@ const quotes = [
     quote:
       "Very well then, instead of fleeing this town, I'll stay here and grow fat off kickbacks and slush funds.",
     author: "-Mayor Quimby",
-    image: "/img/mayor-quimby.png",
+    image: "img/mayor-quimby.png",
   },
   {
     quote: "Are these morons getting dumber or just louder?",
     author: "-Mayor Quimby",
-    image: "/img/mayor-quimby.png",
+    image: "img/mayor-quimby.png",
   },
   {
     quote:
       "Our guilty conscience may force you to vote Democratic, but deep down inside you secretly long for a cold-hearted Republican to lower taxes, brutalize criminals, and rule you like a king. That's why I did this: to protect you from yourselves!",
     author: "-Sideshow Bob",
-    image: "/img/sideshow-bob.png",
+    image: "img/sideshow-bob.png",
   },
   {
     quote:
       " A great man once observed: '90% of success is showing up on time.' Sorry I'm four hours late...",
     author: "-Krusty the Clown",
-    image: "/img/krusty-smoking.png",
+    image: "img/krusty-smoking.png",
   },
   {
     quote:
       "These tests will have no effect on your grades. They merely determine your future social status and financial success. If any.",
     author: "Edna Krabappel",
-    image: "/img/edna-krabappel.png",
+    image: "img/edna-krabappel.png",
   },
   {
     quote: "HA!",
     author: " -Edna Krabappel",
-    image: "/img/edna-krabappel.png",
+    image: "img/edna-krabappel.png",
   },
   {
     quote:
       "And when the doctor said I didn't have worms anymore, that was the happiest day of my life.",
     author: "-Ralph Wiggum",
-    image: "/img/ralph-wiggum.png",
+    image: "img/ralph-wiggum.png",
   },
   {
     quote: "I'm in danger!",
     author: "-Ralph Wiggum",
-    image: "/img/ralph-wiggum.png",
+    image: "img/ralph-wiggum.png",
   },
   {
     quote: "Me fail English...that's unpossible!",
     author: "-Ralph Wiggum",
-    image: "/img/ralph-wiggum.png",
+    image: "img/ralph-wiggum.png",
   },
   {
     quote: "Having a weapon at school has really made things awesome.",
     author: "-Millhouse Van Houten",
-    image: "/img/millhouse-vanhouten.png",
+    image: "img/millhouse-vanhouten.png",
   },
   {
     quote: "His jiggling is almost hypnotic! Yes, it's like a lava lamp.",
     author: "-Dr. Hibbert",
-    image: "/img/dr-hibbert.png",
+    image: "img/dr-hibbert.png",
   },
   {
     quote: "I hate every ape I see from from chimpan-a to chimpan-z.",
@@ -278,7 +278,7 @@ const quotes = [
     quote:
       "Hi, I'm Troy Mcclure. You might remember me from such public service videos as 'Designated Drivers: The Lifesaving Nerds And Phony Tornado Alarms Reduce Readiness'. I'm Here Today To Give You The Skinny On Shoplifting, Thereby Completing My Plea Bargain With The Good People At Foot Locker Of Beverly Hills.",
     author: "-Troy McClure",
-    image: "/img/troy-mcclure.png",
+    image: "img/troy-mcclure.png",
   },
   {
     quote: "Eat my shorts!",
@@ -319,7 +319,7 @@ const quotes = [
   {
     quote: "Moon pie... what a time to be alive.",
     author: "-Jasper Beardsley",
-    image: "/img/jasper-beardsley.png",
+    image: "img/jasper-beardsley.png",
   },
   {
     quote:
@@ -354,13 +354,13 @@ const quotes = [
     quote:
       "Okay, I'm not going to give up. Solitude never hurt anyone. Emily Dickinson lived alone, and she wrote some of the most beautiful poetry the world has ever known...then went crazy as a loon.",
     author: "-Lisa Simpson",
-    image: "/img/lisa-simpson.png",
+    image: "img/lisa-simpson.png",
   },
   {
     quote:
       "Mom, romance is dead. It was acquired by Hallmark and Disney in a hostile takeover, homogenized, and sold off piece by piece.",
     author: "-Lisa Simpson",
-    image: "/img/lisa-simpson.png",
+    image: "img/lisa-simpson.png",
   },
   {
     quote:
@@ -382,19 +382,19 @@ const quotes = [
   {
     quote: "Want me to zinc your sniffer?",
     author: "-Ned FLanders",
-    image: "/img/ned-flanders.png",
+    image: "img/ned-flanders.png",
   },
   {
     quote:
       "You have 24 hours to give us our money. And to show you we're serious ... you have 12 hours.",
     author: "-Fat Tony",
-    image: "/img/fat-tony.png",
+    image: "img/fat-tony.png",
   },
   {
     quote:
       "You're turning me into a criminal when all I want to be is a petty thug!",
     author: "-Bart Simpson",
-    image: "/img/bart-simpson.png",
+    image: "img/bart-simpson.png",
   },
   {
     quote:
@@ -410,7 +410,7 @@ const quotes = [
   {
     quote: "There's no justice like angry-mob justice.",
     author: "-Principle Skinner",
-    image: "/img/principle-skinner.png",
+    image: "img/principle-skinner.png",
   },
   {
     quote:
@@ -433,13 +433,13 @@ const quotes = [
   {
     quote: "I AM THE LIZARD QUEEN!",
     author: "-Lisa Simpson",
-    image: "/img/lisa-simpson.png",
+    image: "img/lisa-simpson.png",
   },
   {
     quote:
       "The deed is done. 24 years of trying to kill a ten-year-old child have finally paid off.",
     author: "-Sideshow Bob",
-    image: "/img/sideshow-bob.png",
+    image: "img/sideshow-bob.png",
   },
   {
     quote: "They didn't have any aspirin, so I got you some cigarettes.",
@@ -455,44 +455,44 @@ const quotes = [
   {
     quote: "If anyone wants me, I'll be in my room.",
     author: "-Lisa Simpson",
-    image: "/img/lisa-simpson.png",
+    image: "img/lisa-simpson.png",
   },
   {
     quote: "Uh, no, they're saying, 'Boo-urns! Boo-urns!",
     author: "-Waylon Smithers",
-    image: "/img/Waylon_Smithers.png",
+    image: "img/Waylon_Smithers.png",
   },
   {
     quote: "There goes the last lingering thread of my heterosexuality.",
     author: "-Patty Bouvier",
-    image: "/img/patty-bouvier.png",
+    image: "img/patty-bouvier.png",
   },
   {
     quote:
       "Ned, have you considered any of the other major religions? They're all pretty much the same.",
     author: "-Reverend Lovejoy",
-    image: "/img/rev-lovejoy.png",
+    image: "img/rev-lovejoy.png",
   },
   {
     quote: "Bake 'em away, toys!",
     author: "-Officer Wiggum",
-    image: "/img/chief-wiggum.png",
+    image: "img/chief-wiggum.png",
   },
   {
     quote: "I’m better than dirt. Well, most kinds of dirt.",
     author: "-Moe Szyslak",
-    image: "/img/moe-szyslak.png",
+    image: "img/moe-szyslak.png",
   },
   {
     quote: "Everything's coming up Milhouse!",
     author: "-Millhouse Van Houten",
-    image: "/img/millhouse-vanhouten.png",
+    image: "img/millhouse-vanhouten.png",
   },
   {
     quote:
       "He's had it in for me ever since I kinda ran over his dog. Well, replace the word 'kinda' with the word 'repeatedly,' and the word 'dog' with 'son.'",
     author: "-Lionel Hutz",
-    image: "/img/lionel-hutz.png",
+    image: "img/lionel-hutz.png",
   },
   {
     quote:
@@ -504,17 +504,17 @@ const quotes = [
     quote:
       "Oh, I have had it, I have had it with this school, Skinner! The low test scores, class after class of ugly, ugly children!",
     author: "-Superintendent Chalmers",
-    image: "/img/superintendent-chalmers.png",
+    image: "img/superintendent-chalmers.png",
   },
   {
     quote: "Tell him it's the 'worst prognosis ever!' Hee hee hee.",
     author: "-Dr. Hibbert",
-    image: "/img/dr-hibbert.png",
+    image: "img/dr-hibbert.png",
   },
   {
     quote: "Have the Rolling Stones killed!",
     author: "-Mr. Burns",
-    image: "/img/mr-burns.png",
+    image: "img/mr-burns.png",
   },
   {
     quote: "Daddy says dice are wicked!",
