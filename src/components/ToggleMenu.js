@@ -1,10 +1,14 @@
 import React from "react";
 import { Nav, Navbar, Container } from "react-bootstrap";
 
+
 const ToggleMenu = () => {
   return (
     <Navbar expand="md">
       <Container fluid>
+      <Navbar.Brand href="/home" className="simpsons-brand">
+          <img src="img/simpson-house2.png" alt= "Simpson House" />
+          </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
