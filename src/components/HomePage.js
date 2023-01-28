@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import QuoteContainer from "./QuoteContainer";
 import quotes from "./quote-arr.js";
+
+
 
 const Home = () => {
   const [quote, setQuote] = useState(quotes[0].quote);
